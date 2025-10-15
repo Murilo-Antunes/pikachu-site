@@ -30,6 +30,7 @@ body{
     width: 100vw;
     display: flex;
     flex-direction: column;
+    padding: 70px;
 }
 
 header{
@@ -38,20 +39,92 @@ header{
     align-items: center;
     gap: 20px;
     font-size: 32px;
-    padding: 70px;
     color: var(--secundary-color);
-    background-color: red;
+
 }
 
 main{
-    background-color: blue;
     flex-grow: 1;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.download{
+    background-color: var(--secundary-color);
+    padding: 20px;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
+    width: 381px;
+    height: 100px;
+    margin-right: 20px;
+    font-size: 48px;
+    color: white;
+    gap: 20px;
+}
+
+h1#tituloTras{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-size: 400px;
+    color: rgba(255, 255, 255, 0.2);
+
+}
+
+h1#tituloFrente{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    font-size: 300px;
+    color: white;
+
+}
+
+#pikachuImg{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 600px;
+}
+
+section{
+    margin-bottom: 120px;
+    top: 70%;
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+.pMain{
+    width: 530px;
+    z-index: 3;
+    color: var(--secundary-color);
+}
+
+.pMain p{
+    width: 489px;
+    font-size: 20px;
+
+}
+
+.pMain h1{
+    font-size: 64px;
 }
 
 footer{
-    background-color: green;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    margin-top: 50px;
+    color: var(--secundary-color);
+    font-size: 16px;
 }
