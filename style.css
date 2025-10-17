@@ -74,14 +74,14 @@ h1#tituloTras{
     left: 50%;
 
     transform: translate(-50%, -50%);
-    font-size: 400px;
+    font-size: 27vw;
     color: rgba(255, 255, 255, 0.2);
 
 }
 
 h1#tituloFrente{
     transform: translateY(25%);
-    font-size: 300px;
+    font-size: 22vw;
     color: white;
 }
 
@@ -132,4 +132,49 @@ footer{
     margin-bottom: 24px;
     margin-top: 73px;
     color: var(--secundary-color);
+}
+
+
+/*Tablet*/
+@media (max-width: 1024px) { 
+    body{
+        padding: 30px;
+    }
+
+    footer{
+        display: none;
+    }
+
+    h1#tituloTras{
+        transform: translate(-50%, -145%);
+    }
+
+    h1#tituloFrente{
+        transform: translate(0, -87%);
+    }
+
+    section#secao-paragrafo{
+        padding: 0px 30px;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: space-around;
+        gap: 11px;
+    }
+
+    #pikachuImg{
+        transform: translate(-50%, -70%);
+        width: 549px;
+    }
+    
+    .download{
+        width: 411px;
+    }
+}
+
+/*Mobile*/
+@media (max-width: 480px) {
+    body{
+        background-color: lightblue;
+    }
 }
