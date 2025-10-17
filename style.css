@@ -174,7 +174,41 @@ footer{
 
 /*Mobile*/
 @media (max-width: 480px) {
-    body{
-        background-color: lightblue;
+
+
+
+    h1#tituloTras{
+        transform: translate(-50%, -175%);
+    }
+
+    h1#tituloFrente{
+        transform: translate(0, -130%);
+    }
+
+    section#secao-paragrafo{
+        gap: 5px;
+    }
+
+    .pMain p{
+        display: none;
+    }
+
+    #pikachuImg{
+        transform: translate(-50%, -70%);
+        width: 350px;
+    }
+    
+    .download{
+        width: 312px;
+        margin-right: 0px;
+        font-size: 40px;
+    }
+
+    .download img{
+        width: 40px;
+    }
+
+    .pMain h1{
+        font-size: 40px;
     }
 }
