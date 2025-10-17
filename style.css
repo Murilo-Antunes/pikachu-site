@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-
+/*Salva variaveis para todo projeto*/
 :root{
     --primary-color: #F5CF06;
     --secundary-color: #8E4106;
@@ -47,7 +47,7 @@ header{
 }
 
 main{
-    flex-grow: 1;
+    flex-grow: 1; /*Faz com que a div em questao preencha todo o espaço possivel, empurrando os outros elementos dentro do pai (funciona so se o pai for flex)*/
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
